@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 355px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+    .card img {
+        width: -webkit-fill-available;
+        border-radius: 10px;
+    }
+    .card img {
+       background-color:aliceblue;
+    }
+
+    .card .info {
+        color: hsl(0, 0%, 100%);
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Outfit', sans-serif;
+    }
+
+.info .headline {
+    font-weight: 600;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.info .text {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+}
+
+.info .share {
+    flex: 50%;
+    color: hsl(178, 100%, 50%);
+    margin:10px 0;
+}
+
+.info .date {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin: 10px 0;
+}
+.info .line {
+    background-color: hsl(215, 51%, 70%);
+    height: 1px;
+    width: -webkit-fill-available;
+    margin: 10px 0;
+}
+.info img {
+    width: 25px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.creator:before {
+    color: hsl(215, 51%, 70%);
+    content: "Creation of ";
+}
