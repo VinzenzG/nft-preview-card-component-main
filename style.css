@@ -1,6 +1,8 @@
 body {
     display: flex;
     justify-content: center;
+    align-content: center;
+    height: 100vh;
     flex-wrap: wrap;
     background-color: hsl(217, 54%, 11%);
 }
@@ -16,7 +18,8 @@ body {
 }
 
     .card img {
-        width: -webkit-fill-available;
+        
+        width: 100%;
         border-radius: 10px;
     }
     .card img {
@@ -57,7 +60,7 @@ body {
 .info .line {
     background-color: hsl(215, 51%, 70%);
     height: 1px;
-    width: -webkit-fill-available;
+    width: 100%;
     margin: 10px 0;
 }
 .info img {
